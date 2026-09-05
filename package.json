@@ -1,0 +1,15 @@
+{
+  "name": "eduboard-relay",
+  "version": "1.0.0",
+  "description": "Blind WebSocket relay for EduBoard rooms (chat / board sync / WebRTC signaling)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
